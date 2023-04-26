@@ -30,7 +30,7 @@ nav a:hover{
 
 main {
     padding: 20px;
-}
+    background-color: #c0ff80}
 
 table {
     border-collapse: collapse;
@@ -44,17 +44,25 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: #b0c156;
+    background-color: #43984a;
+    color: white;
+}
+
+ul {
+    list-style-type:none;
 }
 
 footer {
     background-color: #658a23;
-    text-align: center;
+
     padding: 5px;
-    position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
+}
+
+footer p {
+    text-align: center;
 }
 
 .submit {
