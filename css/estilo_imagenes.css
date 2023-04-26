@@ -1,0 +1,28 @@
+
+#img_1, #img_2, #img_4{float: right;}
+
+#img_3 {float: left;}
+
+#img_1, #img_2, #img_3, #img_4 {border-radius: 10%;}
+
+#img_4 {width: auto; height: 250px;}
+
+section {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-table;
+    justify-content: center;
+}
+section img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
